@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #62374e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  width: 700px;
+  max-width: 100%;
+}
+
+.login-box {
+  flex: 1;
+  padding: 40px;
+}
+
+.login-box h2 {
+  color: #d63a6c;
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d63a6c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup-text a {
+  color: #d63a6c;
+  text-decoration: none;
+}
+
+.image-box {
+  background-color: #62374e;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box img {
+  width: 100%;
+  max-width: 300px;
+
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <h2>Login Form</h2>
+      <p>Enter your login credentials</p>
+        <form action="/login" method="post">email <a href="loginpage.html"></a></input>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <a href="first.html"><button>Login</button></a>
+        <p class="signup-text">Don't have an account? <a href="loginpage.html">new register here</a></p>
+      </form>
+    </div>
+    <div class="image-box">
+      <img src=https://cdn-icons-png.flaticon.com/512/3062/3062634.png alt="Login Illustration">
+    </div>
+  </div>
+</body>
+</html>
